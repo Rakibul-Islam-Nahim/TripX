@@ -14,6 +14,11 @@ import 'package:flutter/foundation.dart'
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
 /// ```
+/// 
+/// IMPORTANT: This is a template file!
+/// - Copy this file as firebase_options.dart
+/// - Replace all placeholder values with your actual Firebase configuration
+/// - Never commit firebase_options.dart to version control
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -41,51 +46,51 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBS8WCylnTc639O8Ufyo3RqMy-L2DIWxcc',
-    appId: '1:630839774463:android:be4f718f4e4425f5bc10ca',
-    messagingSenderId: '630839774463',
-    projectId: 'tripx-91358',
-    storageBucket: 'tripx-91358.firebasestorage.app',
+    apiKey: 'YOUR_ANDROID_API_KEY',
+    appId: 'YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCRhZHTlBZ6rogn1Hrc56j7iLCb0O6EySY',
-    appId: '1:630839774463:ios:966af88e830ad858bc10ca',
-    messagingSenderId: '630839774463',
-    projectId: 'tripx-91358',
-    storageBucket: 'tripx-91358.firebasestorage.app',
-    iosClientId: '630839774463-epd6923rlqc3igqc5h7ekje0ceggrcue.apps.googleusercontent.com',
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: 'YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    iosClientId: 'YOUR_IOS_CLIENT_ID',
     iosBundleId: 'com.example.tripx',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCdUL8Jeeesn-4jTnzisov03670D83iuoM',
-    appId: '1:630839774463:web:e50d945a6f19aeb3bc10ca',
-    messagingSenderId: '630839774463',
-    projectId: 'tripx-91358',
-    authDomain: 'tripx-91358.firebaseapp.com',
-    storageBucket: 'tripx-91358.firebasestorage.app',
-    measurementId: 'G-0YXQW9GM5Q',
+    apiKey: 'YOUR_WEB_API_KEY',
+    appId: 'YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_AUTH_DOMAIN',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    measurementId: 'YOUR_MEASUREMENT_ID',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCRhZHTlBZ6rogn1Hrc56j7iLCb0O6EySY',
-    appId: '1:630839774463:ios:966af88e830ad858bc10ca',
-    messagingSenderId: '630839774463',
-    projectId: 'tripx-91358',
-    storageBucket: 'tripx-91358.firebasestorage.app',
-    iosClientId: '630839774463-epd6923rlqc3igqc5h7ekje0ceggrcue.apps.googleusercontent.com',
+    apiKey: 'YOUR_MACOS_API_KEY',
+    appId: 'YOUR_MACOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    iosClientId: 'YOUR_IOS_CLIENT_ID',
     iosBundleId: 'com.example.tripx',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCdUL8Jeeesn-4jTnzisov03670D83iuoM',
-    appId: '1:630839774463:web:f3221a490cdb3ebdbc10ca',
-    messagingSenderId: '630839774463',
-    projectId: 'tripx-91358',
-    authDomain: 'tripx-91358.firebaseapp.com',
-    storageBucket: 'tripx-91358.firebasestorage.app',
-    measurementId: 'G-PZQE93KSFC',
+    apiKey: 'YOUR_WINDOWS_API_KEY',
+    appId: 'YOUR_WINDOWS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_AUTH_DOMAIN',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    measurementId: 'YOUR_MEASUREMENT_ID',
   );
 
 }
