@@ -14,7 +14,7 @@ import 'package:flutter/foundation.dart'
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
 /// ```
-/// 
+///
 /// IMPORTANT: This is a template file!
 /// - Copy this file as firebase_options.dart
 /// - Replace all placeholder values with your actual Firebase configuration
@@ -92,5 +92,4 @@ class DefaultFirebaseOptions {
     storageBucket: 'YOUR_STORAGE_BUCKET',
     measurementId: 'YOUR_MEASUREMENT_ID',
   );
-
 }

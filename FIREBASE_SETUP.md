@@ -11,7 +11,9 @@ This repository does NOT include sensitive Firebase configuration files for secu
 You need to create the following files with your actual Firebase credentials:
 
 #### **For Dart/Flutter** (`lib/firebase_options.dart`)
+
 1. Copy the template file:
+
    ```bash
    cp lib/firebase_options.example.dart lib/firebase_options.dart
    ```
@@ -23,7 +25,9 @@ You need to create the following files with your actual Firebase credentials:
    - Or manually replace the placeholder values in `firebase_options.dart`
 
 #### **For Android** (`android/app/google-services.json`)
+
 1. Copy the template file:
+
    ```bash
    cp android/app/google-services.example.json android/app/google-services.json
    ```
@@ -35,6 +39,7 @@ You need to create the following files with your actual Firebase credentials:
    - Place it in `android/app/` directory
 
 #### **For iOS** (if applicable)
+
 - Download `GoogleService-Info.plist` from Firebase Console
 - Place it in `ios/Runner/` directory
 
@@ -53,6 +58,7 @@ flutter run
 ## 🔒 Security Best Practices
 
 - **NEVER** commit these files to version control:
+
   - `lib/firebase_options.dart`
   - `android/app/google-services.json`
   - `ios/Runner/GoogleService-Info.plist`
