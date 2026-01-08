@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "630839774463",
+    "project_id": "tripx-91358",
+    "storage_bucket": "tripx-91358.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630839774463:android:be4f718f4e4425f5bc10ca",
+        "android_client_info": {
+          "package_name": "com.example.trip_x"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630839774463-cs9br24m29vkheao42r1v7gto59j223b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS8WCylnTc639O8Ufyo3RqMy-L2DIWxcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630839774463-cs9br24m29vkheao42r1v7gto59j223b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "630839774463-epd6923rlqc3igqc5h7ekje0ceggrcue.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tripx"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
